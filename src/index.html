@@ -1,0 +1,713 @@
+<html>
+    <head>
+        <title>music player</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' type='text/css' href='css\main.css'>
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+            integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	
+    </head>
+    <body class="flex-c">
+        <!-- navbar -->
+       <div class="flex-r navbar">
+            <div class="flex-r navbarLeftSide">
+                <div class="flex-r logo">
+                   <div class="flex-c logoImage">
+                        <a href="#"><img src="images\MX_Player_Logo.png"></a>
+                   </div> 
+                   <div class="flex-c logoName">
+                       <span>Ninja</span>
+                       <span>studio</span>
+                   </div>
+                </div>
+                <div class="flex-c fav">
+                    <span>Favourites</span>
+                </div>
+            </div>
+            <div class="flex-r navbarRightSide">
+                <div class="flex-c searchInput">
+                    <span class="search-mic-icon">
+                        <input type="text" placeholder="search...">
+                    </span>
+                </div>
+                <div class="flex-c notification">
+                        <div class="notification-bell">
+                            <span><i class="fas fa-bell"></i></span>
+                        </div>
+                </div>
+                <div class="flex-c profile">
+                        <div class="profileImage">
+                            <img src="images\singer1.jpg">
+                        </div>
+
+
+                </div>
+            </div>
+       </div>
+       <!-- main -->
+       <div class="flex-r mainPage">
+           <div class="home">
+               <div class="home_carousel">
+                   <img src="images\poster1.jpg">
+                   <img src="images\poster2.jpg">
+                   <img src="images\poster3.jpg">   
+               </div>
+               <!-- latest release  -->
+               <div class="flex-c latest_release">
+                   <div class="header">Latest Release</div>
+                   <div class="flex-r release">
+                       <!-- part1 -->
+                       <div class="flex-r each_release">
+
+
+                            <div class="flex-r release_image_details">
+                                <div class="release_image">
+                                    <img src="images\castleonhill.jpg">
+                                    <div class="playbtn">
+                                        <span><i class="fa fa-play"></i></span>
+                                    </div>
+                                </div>
+                                <div class="flex-c release_details">
+                                    <span class="release_name">Latest</span>
+                                    <span class="release_date">12 jan 2020</span>
+                                </div>
+                            </div>
+                            <div class="flex-c release_options">
+                                <div class="flex-c release_dropdown">
+                                  <input type="checkbox" id="optionCheck1">
+                                  <label for="optionCheck1"><i class="fas fa-ellipsis-h"></i></label>
+                                  <div class="flex-r releaseDropdown">
+                                      <ul>
+                                          <li><span><i class="fa fa-play"></i></span>Play</li>
+                                          <li><span><i class="fa fa-plus"></i></span>Add to queue</li>
+                                          <li><span><i class="fa fa-plus-square"></i>Add to Favourites</span></li>
+                                          <li><span><i class="fa fa-info-circle"></i>Info</span></li>
+                                      </ul>
+                                  </div>
+                                </div>
+                            </div>
+                        </div> 
+                        
+                        <!-- close   -->
+                        <div class="flex-r each_release">
+
+
+                            <div class="flex-r release_image_details">
+                                <div class="release_image">
+                                    <img src="images\castleonhill.jpg">
+                                    <div class="playbtn">
+                                        <span><i class="fa fa-play"></i></span>
+                                    </div>
+                                </div>
+                                <div class="flex-c release_details">
+                                    <span class="release_name">Latest</span>
+                                    <span class="release_date">12 jan 2020</span>
+                                </div>
+                            </div>
+                            <div class="flex-c release_options">
+                                <div class="flex-c release_dropdown">
+                                  <input type="checkbox" id="optionCheck2">
+                                  <label for="optionCheck2"><i class="fas fa-ellipsis-h"></i></label>
+                                  <div class="flex-r releaseDropdown">
+                                      <ul>
+                                          <li><span><i class="fa fa-play"></i></span>Play</li>
+                                          <li><span><i class="fa fa-plus"></i></span>Add to queue</li>
+                                          <li><span><i class="fa fa-plus-square"></i>Add to Favourites</span></li>
+                                          <li><span><i class="fa fa-info-circle"></i>Info</span></li>
+                                      </ul>
+                                  </div>
+                                </div>
+                            </div>
+                        </div> 
+                        <!-- close  -->
+
+                        <div class="flex-r each_release">
+
+
+                            <div class="flex-r release_image_details">
+                                <div class="release_image">
+                                    <img src="images\castleonhill.jpg">
+                                    <div class="playbtn">
+                                        <span><i class="fa fa-play"></i></span>
+                                    </div>
+                                </div>
+                                <div class="flex-c release_details">
+                                    <span class="release_name">Latest</span>
+                                    <span class="release_date">12 jan 2020</span>
+                                </div>
+                            </div>
+                            <div class="flex-c release_options">
+                                <div class="flex-c release_dropdown">
+                                  <input type="checkbox" id="optionCheck3">
+                                  <label for="optionCheck3"><i class="fas fa-ellipsis-h"></i></label>
+                                  <div class="flex-r releaseDropdown">
+                                      <ul>
+                                          <li><span><i class="fa fa-play"></i></span>Play</li>
+                                          <li><span><i class="fa fa-plus"></i></span>Add to queue</li>
+                                          <li><span><i class="fa fa-plus-square"></i>Add to Favourites</span></li>
+                                          <li><span><i class="fa fa-info-circle"></i>Info</span></li>
+                                      </ul>
+                                  </div>
+                                </div>
+                            </div>
+                        </div> 
+                        <!-- close  -->
+
+                        <div class="flex-r each_release">
+
+
+                            <div class="flex-r release_image_details">
+                                <div class="release_image">
+                                    <img src="images\castleonhill.jpg">
+                                    <div class="playbtn">
+                                        <span><i class="fa fa-play"></i></span>
+                                    </div>
+                                </div>
+                                <div class="flex-c release_details">
+                                    <span class="release_name">Latest</span>
+                                    <span class="release_date">12 jan 2020</span>
+                                </div>
+                            </div>
+                            <div class="flex-c release_options">
+                                <div class="flex-c release_dropdown">
+                                  <input type="checkbox" id="optionCheck4">
+                                  <label for="optionCheck4"><i class="fas fa-ellipsis-h"></i></label>
+                                  <div class="flex-r releaseDropdown">
+                                      <ul>
+                                          <li><span><i class="fa fa-play"></i></span>Play</li>
+                                          <li><span><i class="fa fa-plus"></i></span>Add to queue</li>
+                                          <li><span><i class="fa fa-plus-square"></i>Add to Favourites</span></li>
+                                          <li><span><i class="fa fa-info-circle"></i>Info</span></li>
+                                      </ul>
+                                  </div>
+                                </div>
+                            </div>
+                        </div> 
+                        
+                       
+                   </div>
+               </div>
+               <div class="flex-c popular_artists">
+                    <div class="header">Popular Artists</div>
+                    <div class="flex-r artists_list">
+                        <div class="artist">
+                            <a href="artist.html" target="_blank">
+                                <div class="artist_image">
+                                    <img src="images\singer1.jpg"/>
+                                    <div class="play_btn">
+                                        <span><i class="fa fa-play"></i></span>
+                                    </div>
+                                </div>
+                            </a>
+                            <span class="artist_name">singer1</span>
+                        </div>
+                        <div class="artist">
+                            <a href="artist.html" target="_blank">
+                                <div class="artist_image">
+                                    <img src="images\singer2.jpg"/>
+                                    <div class="play_btn">
+                                        <span><i class="fa fa-play"></i></span>
+                                    </div>
+                                </div>
+                            </a>
+                            <span class="artist_name">singer1</span>
+                        </div>
+                        <div class="artist">
+                            <a href="artist.html" target="_blank">
+                                <div class="artist_image">
+                                    <img src="images\singer1.jpg"/>
+                                    <div class="play_btn">
+                                        <span><i class="fa fa-play"></i></span>
+                                    </div>
+                                </div>
+                            </a>
+                            <span class="artist_name">singer1</span>
+                        </div>
+                        <div class="artist">
+                            <a href="artist.html" target="_blank">
+                                <div class="artist_image">
+                                    <img src="images\singer2.jpg"/>
+                                    <div class="play_btn">
+                                        <span><i class="fa fa-play"></i></span>
+                                    </div>
+                                </div>
+                            </a>
+                            <span class="artist_name">singer1</span>
+                        </div>
+                        <div class="artist">
+                            <a href="artist.html" target="_blank">
+                                <div class="artist_image">
+                                    <img src="images\singer1.jpg"/>
+                                    <div class="play_btn">
+                                        <span><i class="fa fa-play"></i></span>
+                                    </div>
+                                </div>
+                            </a>
+                            <span class="artist_name">singer1</span>
+                        </div>
+                        <div class="artist">
+                            <a href="src\artist.html" target="_blank">
+                                <div class="artist_image">
+                                    <img src="images\singer2.jpg"/>
+                                    <div class="play_btn">
+                                        <span><i class="fa fa-play"></i></span>
+                                    </div>
+                                </div>
+                            </a>
+                            <span class="artist_name">singer1</span>
+                        </div>
+                    </div>
+               </div>
+               <!-- stations -->
+               <div class="flex-r stations_list">
+                   <div class="flex-r station_logo">
+                       <span>Stations</span>
+                   </div>
+                   <div class="station">
+                       <img src="images\radio.jpg">
+                       <span class="station_name">Love</span>
+                   </div>
+                   <div class="station">
+                    <img src="images\workout.jpg">
+                    <span class="station_name">chill</span>
+                </div>
+                <div class="station">
+                    <img src="images\radio.jpg">
+                    <span class="station_name">radio</span>
+                </div>
+                <div class="station">
+                    <img src="images\radio.jpg">
+                    <span class="station_name">rock</span>
+                </div>
+                <div class="station">
+                    <img src="images\workout.jpg">
+                    <span class="station_name">workout</span>
+                </div>
+                <div class="station">
+                    <img src="images\radio.jpg">
+                    <span class="station_name">pop</span>
+                </div>
+               </div>
+               <!-- category -->
+               <div class="category flex-r">
+                <div class="category_image">
+                    <img src="images\party.jpg">
+                    <span>Party</span>
+                </div>
+                <div class="category_image">
+                    <img src="images\electronics.jpg">
+                    <span>electronics</span>
+                </div>
+                <div class="category_image">
+                    <img src="images\party.jpg">
+                    <span>Party</span>
+                </div>
+               </div>
+               <!-- latest release english  -->
+               <div class="flex-c latest_albums">
+                    <div class="header">Latest English</div>
+                    <div class="flex-r album-list">
+                        <div class="flex-c album">
+                            <div class="album_image">
+                                <img src="images\engsong1.jpg">
+                            </div>
+                            <span class="album_name">Onism</span>
+                            <span class="album_date">12 jan</span>
+                        </div>
+                        <div class="flex-c album">
+                            <div class="album_image">
+                                <img src="images\engsong2.jpg">
+                            </div>
+                            <span class="album_name">Onism</span>
+                            <span class="album_date">12 jan</span>
+                        </div>
+                        <div class="flex-c album">
+                            <div class="album_image">
+                                <img src="images\engsong1.jpg">
+                            </div>
+                            <span class="album_name">Onism</span>
+                            <span class="album_date">12 jan</span>
+                        </div>
+                        <div class="flex-c album">
+                            <div class="album_image">
+                                <img src="images\engsong2.jpg">
+                            </div>
+                            <span class="album_name">Onism</span>
+                            <span class="album_date">12 jan</span>
+                        </div>
+                        <div class="flex-c album">
+                            <div class="album_image">
+                                <img src="images\engsong1.jpg">
+                            </div>
+                            <span class="album_name">Onism</span>
+                            <span class="album_date">12 jan</span>
+                        </div>
+                        <div class="flex-c album">
+                            <div class="album_image">
+                                <img src="images\engsong1.jpg">
+                            </div>
+                            <span class="album_name">Onism</span>
+                            <span class="album_date">12 jan</span>
+                        </div>
+                    </div>
+               </div>
+               <!-- close  -->
+               <!-- latest hindi -->
+               <div class="flex-c latest_albums">
+                <div class="header">Latest Hindi</div>
+                <div class="flex-r album-list">
+                    <div class="flex-c album">
+                        <div class="album_image">
+                            <img src="images\hindisong1.jpg">
+                        </div>
+                        <span class="album_name">Onism</span>
+                        <span class="album_date">12 jan</span>
+                    </div>
+                    <div class="flex-c album">
+                        <div class="album_image">
+                            <img src="images\hindisong2.jpg">
+                        </div>
+                        <span class="album_name">Onism</span>
+                        <span class="album_date">12 jan</span>
+                    </div>
+                    <div class="flex-c album">
+                        <div class="album_image">
+                            <img src="images\hindisong1.jpg">
+                        </div>
+                        <span class="album_name">Onism</span>
+                        <span class="album_date">12 jan</span>
+                    </div>
+                    <div class="flex-c album">
+                        <div class="album_image">
+                            <img src="images\hindisong2.jpg">
+                        </div>
+                        <span class="album_name">Onism</span>
+                        <span class="album_date">12 jan</span>
+                    </div>
+                    <div class="flex-c album">
+                        <div class="album_image">
+                            <img src="images\hindisong1.jpg">
+                        </div>
+                        <span class="album_name">Onism</span>
+                        <span class="album_date">12 jan</span>
+                    </div>
+                    <div class="flex-c album">
+                        <div class="album_image">
+                            <img src="images\hindisong2.jpg">
+                        </div>
+                        <span class="album_name">Onism</span>
+                        <span class="album_date">12 jan</span>
+                    </div>
+                </div>
+           </div>
+               <!-- close  -->
+           </div>
+           <!-- mainpage queue  -->
+           <div class="queueList">
+            <div class="flex-r queueHeader">
+                <span class="header">My Playlist</span>
+                <div class="flex-c queue_dropdown">
+                    <input type="checkbox" id="queueCheck" />
+                    <label for="queueCheck">Queue <i class="fa fa-caret-down"></i></label>
+                    <div class="flex-r queue_dropdown_menu">
+                        <ul>
+                            <li>Playlists</li>
+                            <hr>
+                            <li>Favourite Songs</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="queue">
+                <ul>
+                    <li>
+                        <div class="flex-r song">
+
+                            <div class="flex-r song_image_details">
+                                <div class="flex-c song_number">
+                                    <span>01</span>
+                                </div>
+                                <div class="song_image">
+                                    <img src="images/singer1.jpg" />
+                                    <div class="play_btn">
+                                        <span><i class="fa fa-play"></i></span>
+                                    </div>
+                                </div>
+                                <div class="flex-c song_details">
+                                    <span class="song_name">Memories</span>
+                                    <span class="artist_name">Maroon 5</span>
+                                </div>
+                            </div>
+
+                            <div class="favourite">
+                                <input type="checkbox" id="favCheck1" />
+                                <label for="favCheck1"><span><i class="fa fa-heart"></i></span></label>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <li>
+                        <div class="flex-r song">
+
+                            <div class="flex-r song_image_details">
+                                <div class="flex-c song_number" style="display: none;">
+                                    <span>02</span>
+                                </div>
+                                <div class="flex-r music_bars">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <div class="song_image">
+                                    <img src="images/singer2.jpg" />
+                                    <div class="play_btn">
+                                        <span><i class="fa fa-play"></i></span>
+                                    </div>
+                                </div>
+                                <div class="flex-c song_details">
+                                    <span class="song_name">Believer</span>
+                                    <span class="artist_name">Imagine Dragons</span>
+                                </div>
+                            </div>
+
+                            <div class="favourite">
+                                <input type="checkbox" id="favCheck2" />
+                                <label for="favCheck2"><span><i class="fa fa-heart"></i></span></label>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <li>
+                        <div class="flex-r song">
+
+                            <div class="flex-r song_image_details">
+                                <div class="flex-c song_number">
+                                    <span>03</span>
+                                </div>
+                                <div class="song_image">
+                                    <img src="images/engsong1.jpg" />
+                                    <div class="play_btn">
+                                        <span><i class="fa fa-play"></i></span>
+                                    </div>
+                                </div>
+                                <div class="flex-c song_details">
+                                    <span class="song_name">Rise</span>
+                                    <span class="artist_name">Jonas Blue</span>
+                                </div>
+                            </div>
+
+                            <div class="favourite">
+                                <input type="checkbox" id="favCheck3" />
+                                <label for="favCheck3"><span><i class="fa fa-heart"></i></span></label>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <li>
+                        <div class="flex-r song">
+
+                            <div class="flex-r song_image_details">
+                                <div class="flex-c song_number">
+                                    <span>04</span>
+                                </div>
+                                <div class="song_image">
+                                    <img src="images/engsong3.jpg" />
+                                    <div class="play_btn">
+                                        <span><i class="fa fa-play"></i></span>
+                                    </div>
+                                </div>
+                                <div class="flex-c song_details">
+                                    <span class="song_name">Paris</span>
+                                    <span class="artist_name">The Chainsmokers</span>
+                                </div>
+                            </div>
+
+                            <div class="favourite">
+                                <input type="checkbox" id="favCheck4" />
+                                <label for="favCheck4"><span><i class="fa fa-heart"></i></span></label>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <li>
+                        <div class="flex-r song">
+
+                            <div class="flex-r song_image_details">
+                                <div class="flex-c song_number">
+                                    <span>05</span>
+                                </div>
+                                <div class="song_image">
+                                    <img src="images/hindisong2.jpg" />
+                                    <div class="play_btn">
+                                        <span><i class="fa fa-play"></i></span>
+                                    </div>
+                                </div>
+                                <div class="flex-c song_details">
+                                    <span class="song_name">Something Just Like This</span>
+                                    <span class="artist_name">The Chainsmokers & Coldplay</span>
+                                </div>
+                            </div>
+
+                            <div class="favourite">
+                                <input type="checkbox" id="favCheck5" />
+                                <label for="favCheck5"><span><i class="fa fa-heart"></i></span></label>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <li>
+                        <div class="flex-r song">
+
+                            <div class="flex-r song_image_details">
+                                <div class="flex-r music_bars">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <div class="song_image">
+                                    <img src="images/hindisong1.jpg" />
+                                    <div class="play_btn">
+                                        <span><i class="fa fa-play"></i></span>
+                                    </div>
+                                </div>
+                                <div class="flex-c song_details">
+                                    <span class="song_name">Believer</span>
+                                    <span class="artist_name">Imagine Dragons</span>
+                                </div>
+                            </div>
+
+                            <div class="favourite">
+                                <input type="checkbox" id="favCheck6" />
+                                <label for="favCheck6"><span><i class="fa fa-heart"></i></span></label>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <li>
+                        <div class="flex-r song">
+
+                            <div class="flex-r song_image_details">
+                                <div class="flex-c song_number">
+                                    <span>02</span>
+                                </div>
+                                <div class="song_image">
+                                    <img src="images/engsong3.jpg" />
+                                    <div class="play_btn">
+                                        <span><i class="fa fa-play"></i></span>
+                                    </div>
+                                </div>
+                                <div class="flex-c song_details">
+                                    <span class="song_name">Marvin Gaye</span>
+                                    <span class="artist_name">Charlie Puth</span>
+                                </div>
+                            </div>
+
+                            <div class="favourite">
+                                <input type="checkbox" id="favCheck7" />
+                                <label for="favCheck7"><span><i class="fa fa-heart"></i></span></label>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <li>
+                        <div class="flex-r song">
+
+                            <div class="flex-r song_image_details">
+                                <div class="flex-c song_number">
+                                    <span>03</span>
+                                </div>
+                                <div class="song_image">
+                                    <img src="images/hindisong3.jpg" />
+                                    <div class="play_btn">
+                                        <span><i class="fa fa-play"></i></span>
+                                    </div>
+                              ar  </div>
+                                <div class="flex-c song_details">
+                                    <span class="song_name">All We Know</span>
+                                    <span class="artist_name">The Chainsmokers</span>
+                                </div>
+                            </div>
+
+                            <div class="favourite">
+                                <input type="checkbox" id="favCheck8" />
+                                <label for="favCheck8"><span><i class="fa fa-heart"></i></span></label>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <li>
+                        <div class="flex-r song">
+
+                            <div class="flex-r song_image_details">
+                                <div class="flex-c song_number">
+                                    <span>04</span>
+                                </div>
+                                <div class="song_image">
+                                    <img src="images/hindisong3.jpg" />
+                                    <div class="play_btn">
+                                        <span><i class="fa fa-play"></i></span>
+                                    </div>
+                                </div>
+                                <div class="flex-c song_details">
+                                    <span class="song_name">Rise</span>
+                                    <span class="artist_name">Jonas Blue</span>
+                                </div>
+                            </div>
+
+                            <div class="favourite">
+                                <input type="checkbox" id="favCheck9" />
+                                <label for="favCheck9"><span><i class="fa fa-heart"></i></span></label>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <li>
+                        <div class="flex-r song">
+
+                            <div class="flex-r song_image_details">
+                                <div class="flex-c song_number">
+                                    <span>05</span>
+                                </div>
+                                <div class="song_image">
+                                    <img src="images/engsong1.jpg" />
+                                    <div class="play_btn">
+                                        <span><i class="fa fa-play"></i></span>
+                                    </div>
+                                </div>
+                                <div class="flex-c song_details">
+                                    <span class="song_name">Paris</span>
+                                    <span class="artist_name">The Chainsmokers</span>
+                                </div>
+                            </div>
+
+                            <div class="favourite">
+                                <input type="checkbox" id="favCheck10" />
+                                <label for="favCheck10"><span><i class="fa fa-heart"></i></span></label>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+ 
+    
+    <script> </script>
+</body>
+
+</html>
+       </div>
+    </body>
+</html>
